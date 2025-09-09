@@ -1,0 +1,38 @@
+*{
+    padding: auto;
+    border:fit-content;
+    margin:fit-content;
+    border-width:1px;
+    border-style: solid;
+    border-color: ghostwhite;
+    font-display:initial;
+}
+iframe{
+    width:fit-content;
+    max-width: fit-content;
+    height:fit-content;
+    border:fit-content;
+}
+button i::after{
+    color: blue;
+    box-shadow: 1px;
+}
+
+#but{
+    color: red;
+    background-color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+#but:hover{
+    background-color:black;
+    color: white;
+}
+#but:active{
+    background-color: blue;
+    color: rgb(255, 255, 255);
+    transform: scale(0.80);
+}
